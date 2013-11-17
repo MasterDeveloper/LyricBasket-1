@@ -1,0 +1,201 @@
+/* Compiled Less CSS File */
+/* Generated from "style.css" */
+
+[class^="icon-"],
+[class*=" icon-"] {
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+  -webkit-font-smoothing: antialiased;
+  *margin-right: .3em;
+}
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  text-decoration: inherit;
+  display: inline-block;
+  speak: none;
+}
+/* Default Font Styles
+______________________*/
+body,
+input,
+select,
+textarea {
+  font-family: 'Overlock', cursive;
+  font-size: 15px;
+  color: #666666;
+}
+body {
+  background: #f5f5f5;
+}
+/* Headings
+______________________*/
+h1 {
+  font: bold 24px 'Overlock', cursive;
+  color: #e1e1e1;
+  margin: 0 0 20px;
+}
+h2 {
+  font: 200 52px 'Dosis', sans-serif;
+  color: #000000;
+  margin: 0 0 10px;
+}
+h3 {
+  font: 100 26px 'Dosis', sans-serif;
+  color: inherit;
+  margin: 0 0 10px;
+}
+h4 {
+  font: bold 16px 'Overlock', cursive;
+  color: inherit;
+  margin: 0 0 10px;
+}
+/* Links
+______________________*/
+a {
+  color: #00b6ad;
+}
+a:active,
+a:focus,
+a:hover {
+  outline: none;
+  color: #666666;
+  text-decoration: none;
+}
+/* p, blockquote, address
+______________________*/
+img {
+  max-width: 100%;
+  height: auto;
+}
+p {
+  margin-bottom: 15px;
+}
+/* Header
+______________________*/
+/* Navigation
+______________________*/
+/************************
+	Banner Settings 
+*************************/
+/******************************
+	Pagination Settings 
+*******************************/
+/******************************
+	Author Lists Settings 
+*******************************/
+/******************************
+	Slider Settings 
+*******************************/
+/**********************************
+		Main Area Settings 
+***********************************/
+#main-wrap {
+  padding-bottom: 35px;
+  padding-top: 50px;
+}
+/**********************************
+		Buttons Settings 
+************************************/
+/**********************************
+		Sidebar Settings 
+***********************************/
+/************************
+	Author Gallery Settings 
+*************************/
+/*  Footer 
+-------------------------------------- */
+/**********************
+	 Theme Tabs
+ **********************/
+.tab-pane {
+  padding: 25px 0 0;
+}
+/**********************
+	 SignUp/Login
+ **********************/
+.model-wrap {
+  max-width: 600px;
+  margin: 15px auto;
+  background: white;
+  border: 5px solid #00b6ad;
+  border-radius: 15px;
+}
+.model-wrap .form-control:focus {
+  border-color: #00b6ad;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(0, 182, 173, 0.6);
+}
+.model-wrap h3 {
+  margin: 10px 0;
+  color: #00b6ad;
+  font-weight: 500;
+}
+.modal-header h3 {
+  margin-bottom: 0;
+}
+.modal-body {
+  color: #00b6ad;
+  padding: 10px 20px 20px;
+}
+.form-control:focus {
+  border-color: #00b6ad;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(0, 182, 173, 0.6);
+}
+/**********************
+	 Global Classes
+ **********************/
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.cl {
+  clear: both;
+  font-size: 0;
+  height: 0;
+}
+.clearfix:after {
+  clear: both;
+  content: ' ';
+  display: block;
+  font-size: 0;
+  line-height: 0;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+/* Alignments */
+.center {
+  text-align: center;
+}
+.right {
+  text-align: right;
+}
+.top {
+  vertical-align: top;
+}
+.middle {
+  vertical-align: middle;
+}
+/*****************************
+	 Global Classes End
+ *****************************/
+@media (max-width: 1200px) {
+  
+}
+@media (max-width: 979px) {
+  
+}
+@media (max-width: 767px) {
+  /**********************
+  	 SignUp/Login
+   **********************/
+  /**********************
+  	 Theme Tabs
+   **********************/
+}
+@media (max-width: 479px) {
+  
+}

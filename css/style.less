@@ -1,0 +1,238 @@
+@import "mixins";
+@import "variables";
+
+[class^="icon-"],
+[class*=" icon-"] {
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+  -webkit-font-smoothing: antialiased;
+  *margin-right: .3em; }
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  text-decoration: inherit;
+  display: inline-block;
+  speak: none; }
+
+/* Default Font Styles
+______________________*/
+body, input, select, textarea{
+	font-family: @baseFamily;
+	font-size:@baseFont;
+	color: @textColor;
+}
+body{
+	background:@bodybg;
+}
+
+/* Headings
+______________________*/
+.heading(@weight, @size, @family, @color, @margin){
+	font: @weight @size @family;
+	color: @color;
+	margin: @margin;
+	
+}
+h1{.heading( bold,  24px,  @baseFamily, @bannerColor, 0 0 20px);}
+h2{.heading( 200,  52px,  @altFamily, black, 0 0 10px);}
+h3{.heading( 100,  26px,  @altFamily, inherit, 0 0 10px);}
+h4{.heading( bold,  16px,  @baseFamily, inherit, 0 0 10px);}
+
+/* Links
+______________________*/
+a{
+	color: @linkColor;
+	&:active, &:focus, &:hover{
+		outline:none;
+		color: @linkHoverColor;
+		text-decoration:none;
+	}
+}
+a:hover {
+	
+}
+
+/* p, blockquote, address
+______________________*/
+img{
+	max-width: 100%;
+	height: auto;
+}
+p{
+	margin-bottom:15px;
+}
+
+/* Header
+______________________*/
+#header-wrap{
+	}
+#header-right{
+}
+
+/* Navigation
+______________________*/
+#nav-wrap{
+}
+
+/************************
+	Banner Settings 
+*************************/
+.banner-wrap{
+
+}
+
+
+
+/******************************
+	Pagination Settings 
+*******************************/
+.theme-pagination{
+
+}
+/******************************
+	Author Lists Settings 
+*******************************/
+/******************************
+	Slider Settings 
+*******************************/
+.slider-wrap{}
+
+
+/**********************************
+		Main Area Settings 
+***********************************/
+#main-wrap{
+	padding-bottom:35px;
+	padding-top:50px;
+}
+#main{
+
+}
+
+/**********************************
+		Buttons Settings 
+************************************/
+
+/**********************************
+		Sidebar Settings 
+***********************************/
+
+/************************
+	Author Gallery Settings 
+*************************/
+.sidebar-section{
+}
+/*  Footer 
+-------------------------------------- */
+
+
+#footer-wrap{
+
+}
+#footer{
+}
+/**********************
+	 Theme Tabs
+ **********************/
+.theme-tabs{
+
+}
+.tab-pane{
+	padding:25px 0 0;
+}
+
+
+
+/**********************
+	 SignUp/Login
+ **********************/
+.model-wrap{
+	max-width:600px;
+	margin:15px auto;
+	background:white;
+	border:5px solid @themeColor;
+	border-radius: 15px;
+	.form-control:focus{
+		border-color:@themeColor;
+		box-shadow:	0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(0, 182, 173, 0.6);
+	}
+}
+.model-wrap h3{
+	margin:10px 0;
+	color:@themeColor;
+	font-weight:500;
+}
+.modal-header h3{
+	margin-bottom: 0;
+}
+.modal-body{
+	color:@themeColor;
+	padding:10px 20px 20px;
+}
+.form-control:focus{
+	border-color:@themeColor;
+	box-shadow:	0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(0, 182, 173, 0.6);
+}
+
+
+
+/**********************
+	 Global Classes
+ **********************/
+ 
+.fl{ float:left}
+.fr{ float:right}
+.cl{ clear:both; font-size:0; height:0; }
+.clearfix:after {
+	clear: both;
+	content: ' ';
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+
+
+
+
+
+
+/* Alignments */
+.center { text-align:center }
+.right { text-align:right }
+.top {vertical-align:top }
+.middle { vertical-align:middle }
+
+/*****************************
+	 Global Classes End
+ *****************************/
+
+@media (max-width: 1200px){
+
+
+}
+@media (max-width: 979px) {
+
+}
+@media (max-width: 767px) {
+/**********************
+	 SignUp/Login
+ **********************/
+
+
+/**********************
+	 Theme Tabs
+ **********************/
+.theme-tabs{
+
+}
+
+}
+@media (max-width: 479px) {
+
+}
